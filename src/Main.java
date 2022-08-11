@@ -22,7 +22,6 @@ public class Main {
         manager.addSubTask(subTask2);
         System.out.println(manager.epics);
         System.out.println(manager.subTasks);
-
         System.out.println("\nСоздание Эпика 2");
         // Epic(int id, String name, String description, String status)
         Epic epic2 = new Epic(2, "2 Наименование Эпик 2", "2 Описание Эпик 2", "NEW");
